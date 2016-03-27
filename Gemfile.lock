@@ -1,3 +1,8 @@
+PATH
+  remote: /home/jiasen/Desktop/github_repos/intltelinput_rails
+  specs:
+    intltelinput_rails (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -149,6 +154,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  intltelinput_rails (= 0.1.0)!
   jbuilder (~> 2.0)
   jquery-rails
   pg (= 0.18.1)

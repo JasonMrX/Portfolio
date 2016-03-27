@@ -46,4 +46,7 @@ group :development, :test do
 end
 
 gem 'rails_12factor', group: :production
+gem 'intltelinput_rails', '0.1.0', path: '/home/jiasen/Desktop/github_repos/intltelinput_rails'
+
+
 

@@ -1,1 +1,9 @@
 <h1>Hello Jason, this is Heroku!</h1>
+<%= telephone_field_tag :phone, '', class: 'form-control' %>
+<script>
+$("#phone").intlTelInput({
+    formatOnInit: true,
+    separateDialCode: true
+});
+</script>
+
